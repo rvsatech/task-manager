@@ -1,18 +1,87 @@
-# projeto_mobile_ux_ui
+# Task Manager
 
-A new Flutter project.
+## Sobre o Projeto
 
-## Getting Started
+O Task Manager é um aplicativo mobile desenvolvido em Flutter com foco na organização de tarefas, produtividade e gerenciamento do tempo.
 
-This project is a starting point for a Flutter application.
+O projeto foi criado como parte da disciplina de UX/UI, com o objetivo de transformar um protótipo desenvolvido no Figma em uma aplicação funcional e navegável.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Tela de boas-vindas
+- Tela de login
+- Tela inicial com visualização de tarefas
+- Criação de tarefas
+- Modo foco para concentração em atividades
+- Navegação entre telas
+- Interface intuitiva baseada no protótipo do Figma
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# task-manager
+## Tecnologias Utilizadas
+
+- Flutter
+- Dart
+- Material Design
+
+## Estrutura do Projeto
+
+```text
+lib/
+├── pages/
+│   ├── welcome_page.dart
+│   ├── login_page.dart
+│   ├── home_page.dart
+│   ├── details_page.dart
+│   ├── focus_page.dart
+│   └── profile_page.dart
+│
+├── routes/
+│   └── app_routes.dart
+│
+└── main.dart
+```
+
+## Objetivo
+
+O aplicativo tem como objetivo auxiliar usuários na organização de tarefas e gerenciamento da rotina diária, oferecendo uma experiência simples, moderna e eficiente.
+
+## Como Executar
+
+### Pré-requisitos
+
+- Flutter SDK
+- Dart SDK
+- Android Studio ou VS Code
+
+### Instalação
+
+Clone o repositório:
+
+```bash
+git clone <url-do-repositorio>
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd task-manager
+```
+
+Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+Execute o projeto:
+
+```bash
+flutter run
+```
+
+## Prototipação
+
+O design da aplicação foi inicialmente desenvolvido no Figma e posteriormente implementado utilizando Flutter, buscando manter fidelidade visual ao protótipo original.
+
+## Autor(es)
+
+Projeto desenvolvido para fins acadêmicos na disciplina de UX/UI.
